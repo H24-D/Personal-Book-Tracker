@@ -21,5 +21,18 @@ A full-stack web application to help users track the books they've read, are cur
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/book-tracker.git
-cd book-tracker
+git clone https://github.com/H24-D/Personal-Book-Tracker.git
+cd Personal Book Tracker
+
+### 2. Setup Backend
+
+cd backend
+npm install express mysql2 cors dotenv uuid
+npm start
+
+### 3. Setup Frontend
+
+cd../frontend
+npm install axios react-router-dom
+npm start
+
