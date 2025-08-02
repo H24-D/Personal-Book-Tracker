@@ -1,6 +1,6 @@
 # Personal Book Tracker
 
-A full-stack web application to help users track the books they've read, are currently reading, or plan to read.
+A full-stack web application to help the users to track the books they've read and currently reading, or plan to read.
 
 ## Features
 
