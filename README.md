@@ -7,8 +7,6 @@ A full-stack web application to help users track the books they've read, are cur
 - Add a new book with title, author, status (read / reading / to-read), and optional review
 - View all books grouped by their reading status
 - Edit and delete book entries
-- Organized UI with React Router navigation
-- Connected backend using RESTful APIs
 
 ## 🛠 Tech Stack
 
@@ -22,17 +20,23 @@ A full-stack web application to help users track the books they've read, are cur
 ### 1. Clone the Repository
 
 git clone https://github.com/H24-D/Personal-Book-Tracker.git
+
 cd Personal Book Tracker
 
 ### 2. Setup Backend
 
 cd backend
+
 npm install express mysql2 cors dotenv uuid
+
 npm start
 
 ### 3. Setup Frontend
 
 cd../frontend
+
 npm install axios react-router-dom
+
 npm start
+
 
