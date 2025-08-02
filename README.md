@@ -19,24 +19,34 @@ A full-stack web application to help users track the books they've read, are cur
 
 ### 1. Clone the Repository
 
-git clone https://github.com/H24-D/Personal-Book-Tracker.git
+-git clone https://github.com/H24-D/Personal-Book-Tracker.git
 
-cd Personal Book Tracker
+-cd Personal Book Tracker
 
-### 2. Setup Backend
+### 2.Create MySQL Database and Table
 
-cd backend
+-Open MySQL Workbench
 
-npm install express mysql2 cors dotenv uuid
+ -Connect to your local MySQL server
 
-npm start
+### 3. Setup Backend
+
+-cd backend
+
+-npm install express mysql2 cors dotenv uuid
+
+-npm start
+
+-run on:http://localhost:5000
 
 ### 3. Setup Frontend
 
-cd../frontend
+-cd../frontend
 
-npm install axios react-router-dom
+-npm install axios react-router-dom
 
-npm start
+-npm start
+
+-run on:http://localhost:3000
 
 
