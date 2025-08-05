@@ -59,7 +59,7 @@ A full-stack web application to help the users to track the books they've read a
 
 -run on:http://localhost:5000
 
-### 3. Setup Frontend
+### 4. Setup Frontend
 
 -cd../frontend
 
